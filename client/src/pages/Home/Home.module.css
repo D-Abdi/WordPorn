@@ -1,0 +1,32 @@
+.HomeDiv {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.HomeTitle {
+  font-size: 5rem;
+  margin: 50px 0;
+}
+
+.HomeBtn1,
+.HomeBtn2 {
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 18px 12px;
+  margin: 30px 5px;
+  outline: none;
+  transition: all 0.5s;
+}
+
+.HomeBtn1:hover,
+.HomeBtn2:hover,
+.HomeBtn1:active,
+.HomeBtn2:active {
+  color: white;
+  background-color: black;
+  box-shadow: 6px 10px whitesmoke;
+  border: 0.5px white solid;
+}

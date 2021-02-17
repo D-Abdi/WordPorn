@@ -1,0 +1,26 @@
+.DutchDiv {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 auto;
+}
+
+.DutchTitle {
+  text-align: center;
+  font-size: 3rem;
+  margin: 55px 0;
+}
+
+.DutchCard {
+  width: 300px;
+  word-wrap: break-word;
+  padding: 15px;
+  margin: 15px auto;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  transition: 0.5s all;
+}
+
+.DutchCard:hover,
+.DutchCard:active {
+  box-shadow: 6px 8px whitesmoke;
+}

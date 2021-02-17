@@ -1,0 +1,33 @@
+.WordsDiv {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin: 200px 0;
+}
+
+.WordsTitle {
+  font-size: 2rem;
+  margin: 50px 0;
+}
+
+.WordsBtn1,
+.WordsBtn2 {
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 20px 32px;
+  margin: 30px 5px;
+  outline: none;
+  transition: all 0.5s;
+}
+
+.WordsBtn1:hover,
+.WordsBtn2:hover,
+.WordsBtn1:active,
+.WordsBtn2:active {
+  color: white;
+  background-color: black;
+  box-shadow: 6px 10px whitesmoke;
+  border: 0.5px white solid;
+}
