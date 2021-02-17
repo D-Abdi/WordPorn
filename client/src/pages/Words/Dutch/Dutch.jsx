@@ -9,7 +9,7 @@ function Dutch() {
     const [wordList, setWordList] = useState([]);
 
     useEffect(() => {
-        Axios.get('http://localhost:3001/words').then((response) => {
+        Axios.get('/words').then((response) => {
             setWordList(response.data);
         })
     }, [])

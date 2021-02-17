@@ -6,7 +6,7 @@ const Word = (props) => {
     const { id } = props.match.params;
 
     useEffect(() => {
-        Axios.get('http://localhost:3001/word/' + id).then((response) => {
+        Axios.get('/word/' + id).then((response) => {
             setWord(response.data)
         })
     },[id])

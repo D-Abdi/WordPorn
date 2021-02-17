@@ -10,7 +10,7 @@ function AddWord() {
     const [definition, setDefinition] = useState('');
   
     const addToList = () => {
-      Axios.post('http://localhost:3001/word/create', {language: language, word: word, definition: definition}).then(() => {
+      Axios.post('/word/create', {language: language, word: word, definition: definition}).then(() => {
         console.log("Succes!");
       })
     }
