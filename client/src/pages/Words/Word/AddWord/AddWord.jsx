@@ -10,7 +10,7 @@ function AddWord() {
     const [definition, setDefinition] = useState('');
   
     const addToList = () => {
-      Axios.post('/word/create', {language: language, word: word, definition: definition}).then(() => {
+      Axios.post('https://abdi-wordporn.herokuapp.com/word/create', {language: language, word: word, definition: definition}).then(() => {
         console.log("Succes!");
       })
     }

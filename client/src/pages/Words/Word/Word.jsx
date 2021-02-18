@@ -6,7 +6,7 @@ const Word = (props) => {
     const { id } = props.match.params;
 
     useEffect(() => {
-        Axios.get('/word/' + id).then((response) => {
+        Axios.get('https://abdi-wordporn.herokuapp.com/word/' + id).then((response) => {
             setWord(response.data)
         })
     },[id])

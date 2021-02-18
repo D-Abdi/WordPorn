@@ -1,7 +1,6 @@
 import './App.css';
 import React from 'react';
 import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
-import Logo from './assets/logo.png';
 
 import Home from './pages/Home/Home';
 import Dutch from './pages/Words/Dutch/Dutch';

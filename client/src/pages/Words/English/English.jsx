@@ -9,7 +9,7 @@ function English() {
     const [wordList, setWordList] = useState([]);
 
     useEffect(() => {
-        Axios.get('/words').then((response) => {
+        Axios.get('https://abdi-wordporn.herokuapp.com/words').then((response) => {
             setWordList(response.data);
         })
     }, [])
